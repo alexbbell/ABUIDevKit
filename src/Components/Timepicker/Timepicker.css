@@ -1,0 +1,42 @@
+.wrapper {
+   display: inline-block;
+   border: #000 1px solid;
+   padding: 4px 10px;
+   border-radius: 5px;
+}
+
+.tsWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.tsWrapper> div.input > input[type=text] {
+    width: 20px;
+    outline: 1px solid;
+    border: black 0px solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: right;
+    -webkit-transition: 0.5s;
+    transition: ease-in-out, width .35s ease-in-out;;
+}
+
+.tsWrapper.active> div.input input[type=text] {
+    border: none 0px solid;
+    outline: 1px solid ;
+}
+.tsWrapper> div.input input[type=text]:focus {
+    border: #46e918 0px solid;
+    outline: #46e918 3px solid ;
+}
+
+
+.arrow {
+    user-select: none;
+}
+.arrow:hover {
+    color: #46e918;
+    cursor: pointer;
+}
+

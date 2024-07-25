@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# ABUIDevKit
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains React components which I use in my scenarios and you can do it as well.
+
+## Timepicker
+The first component from the pack. It's what can't really find for me.
+It supports the input from keyboard, using keyboard arrows Up and Down or by clicking arrows.
 
 ## Available Scripts
 
